@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="KUITHonorsProgram.xsl" type="text/xsl"?>
+<page>
+
+<!--List of Hiddens -->
+<strStudentId infd_required="true" infd_name="Please use lookup to find StudentID and Name"></strStudentId>   
+<strFullName></strFullName>
+<strProgram></strProgram>
+<strEmail infd_required="true" infd_name="Please enter Email address"></strEmail>
+<strInternational infd_required="true" infd_name="International Student? Yes/No"></strInternational>
+<strSemester infd_required="true" infd_name="Applying for Spring 2015/Fall 2016?"></strSemester>
+<hdnOptIn infd_required="true" infd_name="Please Sign/Certify the form"></hdnOptIn>
+
+<!--Ends -->
+<strStudentIdVisible></strStudentIdVisible>
+<strFullNameVisible></strFullNameVisible>
+<strEmailVisible></strEmailVisible>
+<blnOptIn></blnOptIn>
+<strDisplayName></strDisplayName>
+<dateSubmittedDate></dateSubmittedDate>
+
+</page>

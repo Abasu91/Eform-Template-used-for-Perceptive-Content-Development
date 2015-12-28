@@ -1,0 +1,1005 @@
+/* Universal */
+html, body {
+	background-color: #ffffff !important;
+	font: 11pt Helvetica, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Page DIV Wrapper */ 
+#Page_Wrapper {
+	width: 910px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+/* Form Header */
+#Section_Header {
+	height: 100px;
+	background-color: #FFFFFF;
+  border: 4px #D1D4D3 dotted;
+  border-bottom: 0px;
+	padding: 5px;
+  /* padding-right: 0px; */
+}
+
+#Header_Logo {
+  width: 200px;
+  vertical-align: middle;
+  padding: 4px 4px 4px 4px;
+}
+
+#Header_Text {
+  vertical-align: middle;
+  text-align: right;
+  padding-right: 6px;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+#Header_Text h2 {
+  /* background-color: #ffff00; */
+  font-size: 26px;
+}
+
+#Header_Title, #Header_SubTitle {
+  line-height: normal;
+	margin:0;
+	padding:0;
+}
+
+#Header_SubTitle { 
+	color: #919693; 
+}
+
+/* Form Sections */
+#Section_Wrapper {
+	background-color: #FFFFFF;
+	border-width: 6px 3px 6px 3px; /* Syntax : border-width: (top) (right) (bottom) (left); */
+	border-style: solid;
+	border-color: #D1D4D3;
+	padding: 0px 5px 5px 5px;
+}
+
+#Section_Wrapper_Text, .helper_text {
+	font-weight: normal;
+  padding-bottom: 3px;
+  font-size: 9pt;
+  font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+}
+
+.textbox {
+  width: 850px;
+
+  padding: 5px;
+  border: 1px #D1D4D3 solid;
+  margin-left: 5px;
+
+  word-wrap: break-word;
+  font-weight: normal;
+  font: 11pt Helvetica, "Helvetica Neue", Arial, sans-serif;
+  overflow: hidden;
+}
+
+.TextAreaDIV {
+	width: 850px;
+  
+  padding: 5px;
+  border: 1px #D1D4D3 solid;
+  margin-bottom: 10px;
+  margin-top: 5px; 
+   
+  background-color: #f2f2f2;
+  color: #000000;
+
+  white-space: pre !important;
+  word-wrap: break-word;
+  font-weight: normal;
+  font: 11pt Helvetica, "Helvetica Neue", Arial, sans-serif;
+}
+
+.Blue_Wrapper {
+  border: solid;
+  border-width: 2px;
+  border-bottom-width: 5px;
+  border-color: #0051BA !important;
+}
+
+.blue_header {
+  background-color: #0051BA;
+  color: #FFFFFF;
+  padding: 5px;
+  padding-top: 9px !important;
+  padding-left: 8px!important;
+  padding-bottom: 11px !important;
+}
+
+/************************************
+Section: Main
+************************************/
+.label_text_help {
+  font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 9pt;
+  padding: 5px 15px 10px 5px;
+  vertical-align: middle;
+  /* word-wrap: break-word;
+  width: 98% !important; */
+}
+
+.info_label {
+  font-size:10px;
+  margin-left:10px;
+  color:#131313;
+ /* font-style: italic;*/
+}
+
+.info_label1 {
+  font-size:14px;
+  margin-right:100px;
+  color:#131313;
+ /* font-style: italic;*/
+}
+.info_label_text {
+  font-size:13px;
+  margin-left:6.5px;
+  margin-top: -4px;
+  padding-bottom: 1em;
+  color:#7A7A81;
+}
+
+.info_label_text1 {
+  font-size:12px;
+  margin-left:1px;
+  margin-top: -4px;
+  
+}
+
+.info_label_question {
+  font-size:13px;
+  margin-left:6.5px;
+  margin-top: -4px;
+  padding-bottom: 1em;
+  color:#2D2D2D;
+  font-style: italic;
+
+}
+
+.white{
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+}
+
+.star{
+  color:red;
+}
+
+.image_padding {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+input[type='radio']{
+  border-color: #ffffff; /* IN can see this */
+  border: solid 0px;
+  font-size: 10pt;
+  font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+  margin: 8px;
+  /* color: #ffffff; */  /* re-color the black boxes FS-IN draws around radios - fixed above!!*/
+}
+
+/************************************
+Section: Comments & Signature
+************************************/
+#Section_Comments, #Section_Signature {
+  padding: 10px;
+  font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Form Footer */
+#Section_Footer, .Section_Footer {
+	background-color: #FFFFFF;
+  border: 4px #D1D4D3 dotted;
+  border-top: 0px;
+	padding: 5px;
+	font-size: 11px;
+}
+
+#Section_Footer_Content, .Section_Footer_Content  {
+	font-size: 11px;
+}
+
+#Section_Footer_Image, .Section_Footer_Image {
+  padding: 5px;
+  vertical-align: middle;
+}
+
+/* Links */
+a:link, a:visited {
+  color: #0062A0;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #202124;
+  text-decoration: none;
+}
+
+a:active {
+  color: #202124;
+  text-decoration: none;
+}
+
+/* Form Label Styling */
+label {
+  display: inline-block; /* inline-block not supported on IN ? */
+}
+
+.label_text {
+  font-weight: bold;
+  padding: 4px;
+  font-size: 10pt;
+  font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+  padding-right: 10px;
+  /*padding-bottom: 1em;*/
+}
+
+#question_text, .question_text {
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 10pt;
+  font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+}
+
+#Section_Label_Text{
+  font-weight: bold;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 11pt;
+  font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+  border-bottom: 3px #FFFFFF solid;
+}
+
+/* .required_text {
+  background-color: #eacbcf;
+  border: solid 1px #CE1126;
+} */
+#Header_Table2{
+  margin-top:-15px; 
+}
+.inline {
+  display: inline;
+  margin-right: 5px;
+}
+
+.right_align {
+  text-align: right;
+  margin-right: 1px;
+}
+
+/* label.radio_text,  */
+.radio_text {
+  vertical-align: middle;
+  margin: 3px; 
+  padding: 5px 2px 5px 4px !important;
+  font-size: 10pt;
+  font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+  /* line-height: .6em; */
+  /* background-color: #eeee00; */
+}
+ 
+.radio_text_IN {   /* addresses radio vertical alignment for ImageNow */
+  vertical-align: middle;
+  margin: 3px;
+  padding: 1px 2px 6px 4px !important;
+  font-size: 9pt;
+  font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+  /* line-height: .6em; */
+  /* background-color: #eeee00; */
+}
+
+/* label.checkbox_text,  */
+.checkbox_text  {
+  vertical-align: middle;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 10pt;
+  font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+  padding: 5px !important; /* *** */
+  /* padding-bottom: 4px; */  /* *** */
+}
+
+.align_middle {
+  vertical-align: middle;
+}
+
+/* Form Object Styling */
+input[type=text], input-text, .normal_text {
+  background-color: #f6f6f6;
+  color: #2e2d2d;
+  border: solid 1px #D1D4D3;
+  font-size: 11pt;
+  padding: 4px; 
+}
+
+/* input[disabled], input[disabled="disabled"] {
+  background-color: #f6f6f6;
+  color: #2e2d2d;
+} */
+
+input[readonly], input[readonly="readonly"] {
+  background-color: #fefefe;
+  color: #000000;
+}
+
+/*input[type=checkbox], input[type="checkbox"], .checkbox {*/
+  /* border-color: #D1D4D3; */ /*  IN renders this glow around the checkoxes */
+  /*border-color: #ffffff;*/
+/*  display: inline;
+  vertical-align: middle;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+  border-width: 2px;*/
+  /* padding: 4px !important; */
+/*}*/
+
+input[type=submit] {
+	background-color: #FFFFFF;
+  border: solid 1px #D1D4D3;
+}
+
+.ChecksandRadios {
+  border: solid 0px #ffffff; /* IN & printing can see these */
+  vertical-align: middle;
+  font-size: 10pt;
+  font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+  margin: 6px;
+  /* background-color: #ffff88; */
+  /* color: #ffffff;  */ /* re-color the black boxes FS-IN draws around radios - not neede because of fix above */
+}
+
+input.error, textarea.error, label.error, div.error, select.error {
+  border: 2px #a01e00 solid;
+  margin: 0px 2px 0px 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+input[type='checkbox'] {
+  border: 5px #ffffff solid;
+  margin: 2px 2px 2px 2px;
+  padding: 5px;
+}
+input[type='checkbox'].error {
+  border: 5px #a01e00 solid !important;
+  /*margin: 2px 2px 2px 2px;
+  padding: 5px;*/
+}
+
+input.satisfied, textarea.satisfied, label.satisfied, div.satisfied, select.satisfied  {
+  border: 1px #d1d4d3 solid !important;
+  margin: 1px 2px 1px 2px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+table.error {
+  border: 2px #a01e00 solid;
+  margin: 0px 2px 0px 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+table.satisfied {
+  border: 1px #ffffff solid !important;
+  margin: 1px 2px 1px 2px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* #DeanName.satisfied {
+  border: 1px #d1d4d3 solid !important;
+  margin: 1px 2px 1px 2px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+ */
+/* #DeanName.error {
+  border: 1px #d1d4d3 solid !important;
+  margin: 1px 2px 1px 2px;
+  padding-left: 6px;
+  padding-right: 6px;
+} */
+
+span.error{
+  border: solid 2px #a01e00 !important;
+}
+
+span.satisfied {
+  border: solid 2px #ffffff; /* ffffff */
+}
+
+span.cboInvert {
+  border: solid 2px #eeeeee;
+}
+
+.checkbox_span { 
+  display: inline-block;
+  margin: 5px;
+  margin-left: 0px;
+  padding: 6px;
+}
+
+select.satisfied {
+  border-width: 2px !important;
+  margin-left: 4px !important;
+  padding-left: 3px !important;
+  padding-right: 0px;
+  margin-right: 0px;
+  border-right-width: 1px;
+}
+
+.startendRed {  /* test for text */
+ color: #a01e00;
+}
+
+.startendWhite {
+ color: #000000;
+}
+
+/***** text *******************************************************************/
+
+.textbox_style {
+  height: 20px;
+  line-height: 20px;
+  padding: 1px 1px 1px 5px; /* Syntax : border-width: (top) (right) (bottom) (left); */
+  font-size: 11pt;
+}
+
+.textbox_style input {
+  height: 20px;
+  line-height: 20px; 
+  margin: 4px 0px 0px 0px; /* Syntax : border-width: (top) (right) (bottom) (left); */
+  padding: 1px 1px 1px 50px; /* Syntax : border-width: (top) (right) (bottom) (left); */
+  font-size: 11pt;
+}
+
+/*.textbox_style input     { position: relative; z-index: 1; }
+.textbox_style span span { position: absolute; }
+
+/**IE Stuff**/
+.textbox_style input  { filter: alpha(opacity=0); }
+.textbox_style select { filter: alpha(opacity=0); }
+
+
+
+/*************************************
+    Sizing Styles
+    **************************************/
+    .Size_35 {width: 35px;}
+    .Size_50 {width: 50px;}
+    .Size_75 {width: 75px;}
+    .Size_100 {width: 100px;}
+    .Size_125 {width: 125px;}
+    .Size_150 {width: 150px;}
+    .Size_160 {width: 160px;}
+    .Size_185 {width: 185px;}
+    .Size_200 {width: 200px;}
+    .Size_250 {width: 250px;}
+    .Size_270 {width: 275px;}
+    .Size_275 {width: 275px;}
+    .Size_300 {width: 300px;}
+    .Size_325 {width: 325px;}
+    .Size_350 {width: 350px;}
+    .Size_375 {width: 375px;}
+    .Size_400 {width: 400px;}
+    .Size_435 {width: 435px;}
+    .Size_600 {width: 600px;}
+
+    .image_padding {
+      margin-left: 5px;
+      margin-right: 5px;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+    /* General Stuff */
+    td {
+     vertical-align:top;
+   }
+
+   hr {
+    height: 0;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    /* width: 98%; */
+    margin: 0px, 20px, 0px, 3px:;
+  }
+
+  .line {
+    height: 1px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-color: #D1D4D3; /* #eeeeee */
+    background-color: #D1D4D3; /* #dddddd */
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 1px;
+    width: 99%;
+  } 
+
+  h1, h2, h3, h4, h5, h6 {
+    letter-spacing: -0.05em;
+    font-family: Georgia, 'Times New Roman', serif;
+  }
+
+  h1 {font-size: 36px;}
+  h2 {font-size: 28px;}
+  h3 {font-size: 21px;}
+  h4 {font-size: 19px;}
+  h5 {font-size: 17px;}
+  h6 {font-size: 15px;}
+
+
+  /*	Debugger Styling	*/
+  .dialog-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: none;
+    z-index: 999;
+  }
+
+  #SearchDialog {
+    z-index: 1;
+  }
+
+  .dialog-wrapper {
+    border: 4px solid #b6b5b5;
+  }
+
+  .dialog-header {
+    border: 1px solid #0051BA;
+    color: #FFFFFF;
+    background: #0051BA none no-repeat right center;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', Tahoma, Verdana, Arial, sans-serif;
+  }
+
+ .dialog-body {
+   border: 1px solid #555555;
+   border-width: 0px 1px 1px 1px;
+ }
+
+ .dialog-content {
+   padding: 10px;
+   background-color: #FFFFFF;
+ }
+
+ .dialog-foot {
+   background-color: #F2F2F2;
+   border-top: 1px solid #CCCCCC;
+   padding: 3px 10px;
+ }
+
+ .dialog-actions {
+   background-color: #F2F2F2;
+   border-top: 1px solid #CCCCCC;
+   padding: 3px 10px;
+   padding-right: 18px;
+ }
+
+ .dialog-buttons {
+   text-align: right;
+ }
+
+ .dialog-button {
+   font-size: 1em;
+   background-color: #0051BA;
+   border: 1px solid #DDDDDD;
+   color: #FFFFFF;
+   /*margin-left: 8px;*/
+   padding: 2px 10px;
+ }
+
+ iframe.iefix {
+   display: none;
+   display/**/: block;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -10;
+   filter:mask();
+ }
+
+ .grid-header-column {
+  font: 8pt 'Trebuchet MS', Tahoma, Verdana, Arial, sans-serif;
+  padding-left:0; padding-top: 1pt;
+  margin-left:0; margin-bottom: 1;
+  font-weight: bold;
+  background-color: #EEEEEE;
+  color: black;
+}
+
+.grid-row-even {
+	background-color: #FFFFFF;
+}
+
+.grid-row-odd {
+	background-color: #EEEEEE;
+}
+
+.grid-cell {
+	font-size: .97em;
+	padding: 1px, 2px, 2px, 1px;
+}
+
+.grid-row-highlighted {
+	background-color: #0051BA;
+  color:white;
+}
+
+.tdContractPay {
+}
+
+#fbCommandBox {
+	width: 100%;
+	height: 18px;
+	border: 0;
+	border-top: 1px solid #CCC;
+}
+
+#fbCommandLine {
+	width: 75%;
+	padding: 2px 0px 2px 4px;
+	border-width: 0px;
+	border-style: solid;
+}
+
+#fbToolBar {
+	background-color: #EFF0EC;
+	border-bottom: 1px solid #fff;
+	padding: 2px 4px 2px 7px;
+}
+
+#console {
+	border: 1px solid black;
+}
+
+#console-logWindow {
+	height: 275px;
+	overflow-y: scroll;
+	width: 98%;
+}
+
+.console-logRow {
+	position:relative;
+	border-bottom: 1px solid #D7D7D7;
+	padding: 2px 4px 1px 6px;
+}
+
+.console-logRow-error {
+	color: red;
+	background-color: lightYellow;
+}
+
+.console-logGroup {
+	position:relative;
+	padding: 0 !important;
+	border: none !important;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.console-logGroupBody {
+	margin-left: 16px;
+	border-left: 1px solid #D7D7D7;
+	border-top: 1px solid #D7D7D7;
+}
+
+ul {
+  list-style-type: none;
+  padding: 5px;
+  margin-top: 0px;
+  margin-left: 14px;
+}
+
+.numerics {
+  width: 26px;
+  height: 25px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+
+  padding: 2px;
+  padding-bottom: 4px !important;
+}
+
+.numerics_IN {
+  width: 26px;
+  height: 25px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+
+  padding: 2px;
+  /* padding-bottom: 4px !important; */
+  padding-top: 9px !important;
+}
+
+.dimmed {
+  color: #aaaaaa !important;
+  font-style: italic;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.hidden {
+  display: none;
+}
+
+.normal_select {
+  height: 25px;
+  margin: 0px;
+  margin-bottom: 2px;
+  margin-left: 0px !important;
+}
+
+/* .combo {
+  padding-top: 4px;
+  padding-bottom: 5px;
+} */
+
+.radiogroup {
+  display: inline-block;
+  padding: 6px 6px 6px 5px;
+  border: solid 2px white;
+
+  /* background-color: #dddd00; */
+  margin-top: 3px;
+
+}
+
+#academic_year {
+  margin: 12px 0px 8px 1px;
+}
+
+/*----- COMBO SPANs (some include labels)  --- */
+
+.select_only {   /* only select box (no label) */
+  padding: 4px 0px 5px 0px;
+}
+
+.PrimarySchool_label { 
+  margin-bottom: 2px;
+}
+
+.select_only_IN {   /* addresses select-only span error outline */
+  padding: 0px 0px 0px 0px;
+}
+
+.select_and_label_h {  /* span includes inline label (horizontal layout)  */
+  display: inline-block;
+  padding: 10px; 
+  padding-left: 5px;
+}
+
+.select_and_label_v {  /* span includes label (vertically) */
+  /* padding: 7px;
+  padding-bottom: 8px;
+  padding-left: 5px; */
+}
+
+/*------------ SPECIFIC ------------ */
+
+.tablesetting {  /* #Faculty_INFO_Row1-4 */
+  /* padding: 10px 0px 10px 5px; */
+}
+
+#leave_pay {
+  padding: 0px 5px 10px 5px;
+}
+
+#pay_period {
+  padding-left: 25px;
+}
+
+.sabbat_title {
+  /*background-color: #eeee00;*/
+  margin-left: 0px !important;
+}
+
+#Faculty_INFO_Row1{
+  padding-bottom: 0px;
+}
+
+.graybckgnd { /* #Faculty_INFO_Row3-4 */
+  background-color: #eeeeee;
+}
+
+#OverallEval_label {
+  font-size: 120%;
+  font-weight: bold;
+  color: #444444;
+  margin-left: 3px;
+}
+
+#Reasons_textarea {
+  padding-top : 0px;
+}
+
+#cboPrimarySchool {
+  margin-top: 1px;
+}
+
+#DCLS_meets, #DCDDE_meets {
+/* margin-top: 3px; */
+}
+
+/*----- pseudo table for Sig ---------- */
+
+.align_right {
+  text-align: right;
+  margin: 5px;
+}
+
+#txtCompletedBehalfTitle, #txtCompletedChairTitle {
+  margin-left: 5px;
+}
+
+/*--------- ImageNow --------------- */
+
+/* .hi1 {
+  background-color: #aaaa00;
+  color: #aaaa00;
+} */
+
+/* #Overall_Evaluations { */
+  /* background-color: #eecc00; */
+  /* color: #aaaa00; */
+  /* padding-bottom: 15px !important; */
+  /* margin-bottom: 15px !important; */
+/* } */
+
+/* #Section_Main {
+  padding-bottom: 5px;
+} */
+
+
+/*----- EXCESSIVE COMBO diddling --- */
+
+#cbo3, #cbo4 {
+  display: inline;
+}
+
+.cbo, .cboClear {
+/*   padding-left: 0px;
+padding-right: 0px; */
+  border: solid;
+  border-width: 2px 2px 2px 2px !important;
+}
+
+.cbo {
+  border-color: #a01e00;
+}
+
+.cboClear {
+  border-color: #ffffff;
+}
+
+#cbo3.cboClear , #cbo4.cboClear {
+  border-color: #eeeeee;
+  margin-top: 10px !important;
+}
+
+.fix_cbo {
+  margin-top: 5px !important;  /* workaround for FS cbo issue */
+}
+
+#cbo3.error, #cbo4.error{
+  /* padding: 0px, 0px, 0px, 3px; */
+}
+
+#cbo1.satisfied, #cbo2.satisfied{
+  /* border-width: 2px !important; */
+  border-color: #ffffff;
+  /* padding: 1px, 1px, 1px, 4px; */
+}
+
+#cbo3.satisfied, #cbo4.satisfied{
+  /* border-width: 2px !important; */
+  /* border-color: #d1d4d3; */
+  border-color: #eeeeee;
+  /* padding: 1px, 1px, 1px, 4px; */
+}
+
+/* #numerical_ranking {
+  padding-top: 10px;
+  padding-bottom: 10px;
+} */
+
+/* #txtEvalProcedures_DIV {
+  white-space: pre-wrap;
+} */
+
+/* Print Styles */
+.print {
+  display: none;  /* move into html so it doesn't disappear - perhaps that's what the 'Loading ...' is for */
+}
+
+@media print {  
+  .print {
+    border: 1px solid #d1d4d3;
+    display: block !important;
+    height: 30px;
+  }
+  .noprint {
+    display: none;
+  }
+}
+
+/* unvisited link */
+.emaillink {
+  text-decoration: underline;
+  color: #0000ee;
+}
+
+/* mouse over link */
+.emaillink:hover {
+  text-decoration: none;
+ color: #222222;
+}
+
+/* selected link */
+.emaillink:active {
+  text-decoration: underline;
+  color: #ee0000;
+}
+
+/* #txtEvalSabbaticalPlan {
+  height: 70px;
+  word-wrap: break-word;
+  top: auto;
+} */
+
+#txtEmail_label, #txtInstructorEmail_label, #txtDeanEmail_label, #txtDuration_label {
+  margin-left: 30px;
+}
+
+#txtReason_label, #txtReason_note {
+  margin-left: 5px;
+}
+
+/* #Course_label, #txtAppointment_label1, #txtAppointment_label2 { */
+.sectionHead {
+  font-size: 12pt;
+  font-weight: bold;
+  color: #888888;
+  padding-top: 15px;
+  padding-left: 3px;
+  margin-left: 2px;
+}
+.dimmed {
+  color: #aaaaaa !important;
+  font-style: italic;
+}
+
+
+
